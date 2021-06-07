@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background-color: #000000;
+  background-image: url(../img/Brush.png);
+  background-repeat: no-repeat;
+  max-width: 1024px;
+  max-height: 576px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+/*Header */
+
+header {
+  margin: 0px;
+  padding: 0px;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  margin: 35px;
+}
+header nav ul {
+  list-style: none;
+  padding: 0px;
+  margin-left: 450px;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: larger;
+  margin-left: 40px;
+}
+
+/*Main*/
+.fashion {
+  position: relative;
+  transform: rotate(270deg);
+  left: -335px;
+  top: -207px;
+  width: 1024px;
+}
+.fashion h2 {
+  font-size: 90px;
+    font-family: "Geometos";
+    color: transparent;
+    -webkit-text-stroke: white 1px;
+    width: 1024px;
+    border: 3px solid;
+    padding: 48px;
+}
+.love {
+  position: relative;
+  top: -295px;
+  left: 563px;
+  color: black;
+  font-family: "Geometos";
+  padding: 0px;
+}
+
+.love h3 {
+  font-size: 58px;
+  padding: 5px;
+  background: white;
+  width: 290px;
+  text-align: center;
+}
+.makeup {
+  position: absolute;
+  top: 112px;
+  right: 477px;
+}
+.makeup h4 {
+  font-size: 92.126px;
+  font-family: "Geometos";
+  color: aliceblue;
+}
+.text {
+  position: absolute;
+  top: 325px;
+  left: 1000px;
+  width: 350px;
+}
+.text p {
+  color: white;
+}
+.shop {
+  position: absolute;
+  top: 420px;
+  left: 1000px;
+}
+.shop a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid;
+  padding: 5px;
+  padding-right: 36px;
+}
